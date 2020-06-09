@@ -1,0 +1,10 @@
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\bin\Debug\Ветвление №2 09.06 Задание 8.exe.config
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\bin\Debug\Ветвление №2 09.06 Задание 8.exe
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\bin\Debug\Ветвление №2 09.06 Задание 8.pdb
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление №2 09.06 Задание 8.csprojAssemblyReference.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление__2_09._06_Задание_8.Form1.resources
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление__2_09._06_Задание_8.Properties.Resources.resources
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление №2 09.06 Задание 8.csproj.GenerateResource.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление №2 09.06 Задание 8.csproj.CoreCompileInputs.cache
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление №2 09.06 Задание 8.exe
+C:\Users\vodya\OneDrive\Рабочий стол\дз\Vetvlenie 09.06 №2\Ветвление №2 09.06 Задание 8\Ветвление №2 09.06 Задание 8\obj\Debug\Ветвление №2 09.06 Задание 8.pdb
