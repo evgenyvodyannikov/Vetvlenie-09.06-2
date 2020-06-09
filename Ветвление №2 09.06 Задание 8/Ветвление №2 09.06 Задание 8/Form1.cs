@@ -40,41 +40,45 @@ namespace Ветвление__2_09._06_Задание_8
                 double b = Math.Sqrt(Math.Pow(b1 - c1, 2) + Math.Pow(c2 - b2, 2));
                 double c = Math.Sqrt(Math.Pow(c2 - d2, 2) + Math.Pow(d1 - c1, 2));
                 double d = Math.Sqrt(Math.Pow(d2 - a2, 2) + Math.Pow(a1 - d1, 2));
-
-                if (a1 == b1 & d1 == c1 & a2 == d2 & b2 == c2)
-                { label5.Text = "Прямоугольник"; label5.ForeColor = Color.BlueViolet; }
-                else if (a2 == d2 & c2 == b2 & Math.Abs(d1 - c1) == Math.Abs(a1 - b1) & d == b)
-                { label5.Text = "Параллелограмм"; label5.ForeColor = Color.Orange; }
-                else
+                if (a2 != b2 || c2 != d2)
                 {
-                    if (a2 == d2 & c2 == b2)
-                    { label5.Text = "Трапеция"; label5.ForeColor = Color.Lime; }
-                    else { label5.Text = "Произвольный четырёхугольник"; label5.ForeColor = Color.Red; }
-                }
+                    if (a1 == b1 & d1 == c1 & a2 == d2 & b2 == c2)
+                    { label5.Text = "Прямоугольник"; label5.ForeColor = Color.BlueViolet; }
+                    else if (a2 == d2 & c2 == b2 & Math.Abs(d1 - c1) == Math.Abs(a1 - b1) & d == b)
+                    { label5.Text = "Параллелограмм"; label5.ForeColor = Color.Orange; }
+                    else
+                    {
+                        if (a2 == d2 & c2 == b2)
+                        { label5.Text = "Трапеция"; label5.ForeColor = Color.Lime; }
+                        else { label5.Text = "Произвольный четырёхугольник"; label5.ForeColor = Color.Red; }
+                    }
 
-                a1 *= 3;
-                a2 *= 3;
-                b1 *= 3;
-                b2 *= 3;
-                c1 *= 3;
-                c2 *= 3;
-                d1 *= 3;
-                d2 *= 3;
-                g.FillEllipse(Brushes.Red, (float)a1, (float)a2, 3, 3);
-                g.FillEllipse(Brushes.Red, (float)b1, (float)b2, 3, 3);
-                g.FillEllipse(Brushes.Red, (float)c1, (float)c2, 3, 3);
-                g.FillEllipse(Brushes.Red, (float)d1, (float)d2, 3, 3);
-                g.DrawLine(Pens.Blue, (float)a1, (float)a2, (float)b1, (float)b2);
-                g.DrawLine(Pens.Blue, (float)b1, (float)b2, (float)c1, (float)c2);
-                g.DrawLine(Pens.Blue, (float)c1, (float)c2, (float)d1, (float)d2);
-                g.DrawLine(Pens.Blue, (float)d1, (float)d2, (float)a1, (float)a2);
-                Font drawFont = new Font("Calibri", 14);
-                g.DrawString("A", drawFont, Brushes.Red, (float)a1 - 20, (float)a2 - 20);
-                g.DrawString("B", drawFont, Brushes.Red, (float)b1 - 20, (float)b2 - 20);
-                g.DrawString("C", drawFont, Brushes.Red, (float)c1, (float)c2 - 20);
-                g.DrawString("D", drawFont, Brushes.Red, (float)d1, (float)d2 - 20);
-                pictureBox1.Image = bt;
-                pictureBox1.Invalidate();
+                    a1 *= 3;
+                    a2 *= 3;
+                    b1 *= 3;
+                    b2 *= 3;
+                    c1 *= 3;
+                    c2 *= 3;
+                    d1 *= 3;
+                    d2 *= 3;
+                    g.FillEllipse(Brushes.Red, (float)a1, (float)a2, 3, 3);
+                    g.FillEllipse(Brushes.Red, (float)b1, (float)b2, 3, 3);
+                    g.FillEllipse(Brushes.Red, (float)c1, (float)c2, 3, 3);
+                    g.FillEllipse(Brushes.Red, (float)d1, (float)d2, 3, 3);
+                    g.DrawLine(Pens.Blue, (float)a1, (float)a2, (float)b1, (float)b2);
+                    g.DrawLine(Pens.Blue, (float)b1, (float)b2, (float)c1, (float)c2);
+                    g.DrawLine(Pens.Blue, (float)c1, (float)c2, (float)d1, (float)d2);
+                    g.DrawLine(Pens.Blue, (float)d1, (float)d2, (float)a1, (float)a2);
+                    Font drawFont = new Font("Calibri", 14);
+                    g.DrawString("A", drawFont, Brushes.Red, (float)a1 - 20, (float)a2 - 20);
+                    g.DrawString("B", drawFont, Brushes.Red, (float)b1 - 20, (float)b2 - 20);
+                    g.DrawString("C", drawFont, Brushes.Red, (float)c1, (float)c2 - 20);
+                    g.DrawString("D", drawFont, Brushes.Red, (float)d1, (float)d2 - 20);
+                    pictureBox1.Image = bt;
+                    pictureBox1.Invalidate();
+                }
+                else
+                { label5.Text = "Невозможно построить"; label5.ForeColor = Color.Red; }
             }
             catch { }
         }
