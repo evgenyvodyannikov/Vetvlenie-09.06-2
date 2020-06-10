@@ -42,17 +42,16 @@ namespace Ветвление__2_09._06_Задание_8
                 double d = Math.Sqrt(Math.Pow(d2 - a2, 2) + Math.Pow(a1 - d1, 2));
                 if (a2 != b2 || c2 != d2)
                 {
-                    if (a1 == b1 & d1 == c1 & a2 == d2 & b2 == c2)
-                    { label5.Text = "Прямоугольник"; label5.ForeColor = Color.BlueViolet; }
-                    else if (a2 == d2 & c2 == b2 & Math.Abs(d1 - c1) == Math.Abs(a1 - b1) & d == b)
-                    { label5.Text = "Параллелограмм"; label5.ForeColor = Color.Orange; }
+                    if (a1 == b1 & c1 == d1 & d == b & a == c)
+                    { label5.Text = "Прямоугольник"; label5.ForeColor = Color.Orange; }
+                    else if (d == b & Math.Abs(d1 - c1) == Math.Abs(a1 - b1))
+                    { label5.Text = "Параллелограмм"; label5.ForeColor = Color.BlueViolet;}
                     else
                     {
-                        if (a2 == d2 & c2 == b2)
+                        if (c2 == b2 & a2 == d2)
                         { label5.Text = "Трапеция"; label5.ForeColor = Color.Lime; }
                         else { label5.Text = "Произвольный четырёхугольник"; label5.ForeColor = Color.Red; }
                     }
-
                     a1 *= 3;
                     a2 *= 3;
                     b1 *= 3;
